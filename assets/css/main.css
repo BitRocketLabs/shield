@@ -296,7 +296,7 @@ a:after {
 	margin-top: 90px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
-	font-size: 100px;
+	font-size: 5em;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
 }
@@ -627,7 +627,7 @@ a:after {
 
 @media screen and (max-width:769px) {
 	#headerwrap h1 {
-		font-size: 80px;
+		font-size: 4em;
 	}
 	#headerwrap p {
 		font-size: 30px;
