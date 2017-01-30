@@ -154,23 +154,23 @@
 					<h3>Inquiries</h3>
 					<p>Tell us how we can help you achieve your web goals.</p>
 					<p>
-						<form class="form-horizontal" role="form">
+						<form class="form-horizontal" role="form" method="POST" action="contact_action.php">
               <div class="form-group">
 						    <label for="text1" class="col-lg-4 control-label"></label>
 						    <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Your Name">
+						      <input type="text" class="form-control" required="true" id="name" name="name" placeholder="Your Name">
 						    </div>
 						  </div>
 						  <div class="form-group">
 						    <label for="inputEmail1" class="col-lg-4 control-label"></label>
 						    <div class="col-lg-10">
-						      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+						      <input type="email" class="form-control" required="true" id="inputEmail1" name="email" placeholder="Email">
 						    </div>
 						  </div>
               <div class="form-group">
 						    <label for="explanation" class="col-lg-4 control-label"></label>
 						    <div class="col-lg-10">
-						      <textarea class="form-control" id="explanation" placeholder="Tell us your goals."></textarea>
+						      <textarea class="form-control" required="true" id="explanation" name="explanation" placeholder="Tell us how we can help you."></textarea>
 						    </div>
 						  </div>
 						  <div class="form-group">
